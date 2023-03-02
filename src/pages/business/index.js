@@ -1,10 +1,10 @@
-import Home from "@/components/home/Home";
+import Business from "@/components/businessproduct/Business";
 import React from "react";
 
 export default function index() {
   return (
     <>
-      <Home />
+      <Business />
     </>
   );
 }

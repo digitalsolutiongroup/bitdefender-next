@@ -1,0 +1,22 @@
+.container {
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.075),
+    rgba(255, 255, 255, 0)
+  );
+  padding: 15px 15px;
+  border-radius: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.greenPill {
+  background-color: rgba(5, 200, 35, 0.25);
+  padding: 5px 10px;
+  border-radius: 7px;
+  color: rgba(0, 255, 40, 1);
+  font-weight: bold;
+}

@@ -1,0 +1,95 @@
+@for $x from 1 through 20 {
+  .gap-#{$x * 5} {
+    gap: #{$x * 5}px;
+  }
+  .margin-#{$x * 5} {
+    margin: #{$x * 5}px;
+  }
+  .margin-top-#{$x * 5} {
+    margin-top: #{$x * 5}px;
+  }
+  .margin-bottom-#{$x * 5} {
+    margin-bottom: #{$x * 5}px;
+  }
+  .margin-left-#{$x * 5} {
+    margin-left: #{$x * 5}px;
+  }
+  .margin-right-#{$x * 5} {
+    margin-right: #{$x * 5}px;
+  }
+  .margin-v-#{$x * 5} {
+    margin-top: #{$x * 5}px;
+    margin-bottom: #{$x * 5}px;
+  }
+  .margin-h-#{$x * 5} {
+    margin-left: #{$x * 5}px;
+    margin-right: #{$x * 5}px;
+  }
+}
+@for $i from 1 through 44 {
+  @media (max-width: #{$i * 50}px) {
+    .text-center-#{$i * 50} {
+      text-align: center;
+    }
+    .text-right-#{$i * 50} {
+      text-align: right;
+    }
+    .text-left-#{$i * 50} {
+      text-align: left;
+    }
+    .flex-row-#{$i * 50} {
+      display: flex;
+      flex-direction: row;
+    }
+    .flex-column-#{$i * 50} {
+      display: flex;
+      flex-direction: column;
+    }
+    .align-start-#{$i * 50} {
+      align-items: flex-start;
+    }
+    .align-center-#{$i * 50} {
+      align-items: center;
+    }
+    .align-end-#{$i * 50} {
+      align-items: flex-end;
+    }
+    .justify-start-#{$i * 50} {
+      justify-content: flex-start;
+    }
+    .justify-center-#{$i * 50} {
+      justify-content: center;
+    }
+    .justify-end-#{$i * 50} {
+      justify-content: flex-end;
+    }
+    @for $x from 1 through 20 {
+      .gap-#{$x * 5}-#{$i * 50} {
+        gap: #{$x * 5}px;
+      }
+      .margin-#{$x * 5}-#{$i * 50} {
+        margin: #{$x * 5}px;
+      }
+      .margin-left-#{$x * 5}-#{$i * 50} {
+        margin-left: #{$x * 5}px;
+      }
+      .margin-right-#{$x * 5}-#{$i * 50} {
+        margin-right: #{$x * 5}px;
+      }
+      .margin-top-#{$x * 5}-#{$i * 50} {
+        margin-top: #{$x * 5}px;
+      }
+      .margin-bottom-#{$x * 5}-#{$i * 50} {
+        margin-bottom: #{$x * 5}px;
+      }
+      .margin-v-#{$x * 5}-#{$i * 50} {
+        margin-top: #{$x * 5}px;
+        margin-bottom: #{$x * 5}px;
+      }
+      .margin-h-#{$x * 5}-#{$i * 50} {
+        margin-left: #{$x * 5}px;
+        margin-right: #{$x * 5}px;
+      }
+    }
+  }
+}
