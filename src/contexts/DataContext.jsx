@@ -13,6 +13,70 @@ export const DataReducer = (state, action) => {
 
 export const DataProvider = ({ children }) => {
   const [state, dispatch] = useReducer(DataReducer, {
+    productList: [
+      {
+        id: 1,
+        link: "familypack",
+        brand: "Bitdefender",
+        name: "Family Pack",
+        price: 607960,
+        price_ori: 1519900,
+      },
+      {
+        id: 2,
+        link: "totalsecurity",
+        brand: "Bitdefender",
+        name: "Total Security",
+        price: 455960,
+        price_ori: 1139900,
+      },
+      {
+        id: 3,
+        link: "internetsecurity",
+        brand: "Bitdefender",
+        name: "Internet Security",
+        price: 403960,
+        price_ori: 1009900,
+      },
+      {
+        id: 4,
+        link: "antivirusplus",
+        brand: "Bitdefender",
+        name: "Antivirus Plus",
+        price: 303960,
+        price_ori: 759900,
+      },
+      {
+        id: 5,
+        link: "antivirusmac",
+        brand: "Bitdefender",
+        name: "Antivirus for Mac",
+        price: 203960,
+        price_ori: 509900,
+      },
+      {
+        id: 6,
+        link: "mobileios",
+        brand: "Bitdefender",
+        name: "Mobile Security for iOS",
+        price: 189900,
+      },
+      {
+        id: 7,
+        link: "mobileandroid",
+        brand: "Bitdefender",
+        name: "Mobile Security for Android",
+        price: 189900,
+      },
+      {
+        id: 8,
+        link: "premiumvpn",
+        brand: "Bitdefender",
+        name: "Premium VPM",
+        price: 377940,
+        price_ori: 629900,
+      },
+    ],
     category: [
       {
         name: "Device Security",
@@ -30,10 +94,10 @@ export const DataProvider = ({ children }) => {
       // Start Here
       {
         id: 1,
-        link_id: "familypack",
+        link_id: "familypack", // Don't Change
         brand: "Bitdefender",
         name: "Family Pack",
-        category: "Device Security",
+        category: "Device Security", // Don't Change
         desc: `One security suite for your entire family
         Keep your family safe from all types of online threats with the ultimate digital protection pack.`,
         support: "w-m-i-a",
@@ -678,10 +742,10 @@ export const DataProvider = ({ children }) => {
       // Start Here
       {
         id: 2,
-        link_id: "totalsecurity",
+        link_id: "totalsecurity", // Don't Change
         brand: "Bitdefender",
         name: "Total Security",
-        category: "Device Security",
+        category: "Device Security", // Don't Change
         desc: `The leading anti-malware solution against advanced attacks in independent tests`,
         support: "w-m-i-a",
         price: 455960,
@@ -1265,10 +1329,10 @@ export const DataProvider = ({ children }) => {
       // Start Here
       {
         id: 3,
-        link_id: "internetsecurity",
+        link_id: "internetsecurity", // Don't Change
         brand: "Bitdefender",
         name: "Internet Security",
-        category: "Device Security",
+        category: "Device Security", // Don't Change
         desc: `Best security against all Internet threats on Windows PCs
         Choose the best-rated Internet security suite to protect your Windows PC against all online threats.`,
         support: "w",
@@ -1599,10 +1663,10 @@ export const DataProvider = ({ children }) => {
       // Start Here
       {
         id: 4,
-        link_id: "antivirusplus",
+        link_id: "antivirusplus", // Don't Change
         brand: "Bitdefender",
         name: "Antivirus Plus",
-        category: "Device Security",
+        category: "Device Security", // Don't Change
         desc: `Best antivirus protection for Windows PCs. Choose a lightweight antivirus that offers essential protection for your Windows PC.`,
         support: "w",
         price: 303960,
@@ -1682,7 +1746,7 @@ export const DataProvider = ({ children }) => {
               },
             ],
           },
-          compareTitle: [1, 2, 3],
+          compareTitle: [2, 3, 4],
           compareValue: [
             {
               title: "Protection for every OS: Windows, macOS, Android and iOS",
@@ -1863,10 +1927,10 @@ export const DataProvider = ({ children }) => {
       // Start Here
       {
         id: 5,
-        link_id: "antivirusmac",
+        link_id: "antivirusmac", // Don't Change
         brand: "Bitdefender",
         name: "Antivirus for Mac",
-        category: "Device Security for Mac & Mobile",
+        category: "Device Security for Mac & Mobile", // Don't Change
         desc: `Absolute antivirus protection against Mac-related threats
         Choose the antivirus solution that offers complete protection and maximum speed for your Mac.`,
         support: "m",
@@ -2048,10 +2112,10 @@ export const DataProvider = ({ children }) => {
       // Start Here
       {
         id: 6,
-        link_id: "mobileios",
+        link_id: "mobileios", // Don't Change
         brand: "Bitdefender",
         name: "Mobile Security for iOS",
-        category: "Device Security for Mac & Mobile",
+        category: "Device Security for Mac & Mobile", // Don't Change
         desc: `Enjoy your iOS. We keep it safe.
         Bitdefender Mobile Security for iOS is a mobile app especially designed to keep your sensitive data safe from prying eyes.`,
         support: "i",
@@ -2171,10 +2235,10 @@ export const DataProvider = ({ children }) => {
       // Start Here
       {
         id: 7,
-        link_id: "mobileandroid",
+        link_id: "mobileandroid", // Don't Change
         brand: "Bitdefender",
         name: "Mobile Security for Android",
-        category: "Device Security for Mac & Mobile",
+        category: "Device Security for Mac & Mobile", // Don't Change
         desc: `Best protection for Android devices
         Bitdefender Mobile Security for Android gives your mobile devices absolute protection against viruses and malware.`,
         support: "a",
@@ -2393,10 +2457,10 @@ export const DataProvider = ({ children }) => {
       // Start Here
       {
         id: 8,
-        link_id: "premiumvpn",
+        link_id: "premiumvpn", // Don't Change
         brand: "Bitdefender",
         name: "Premium VPN",
-        category: "Privacy Solutions",
+        category: "Privacy Solutions", // Don't Change
         desc: `Ultra-fast VPN that keeps your online identity and activities safe from hackers, ISPs and snoops`,
         support: "w-m-i-a",
         price: 377940,

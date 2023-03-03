@@ -9,7 +9,7 @@ import ContactUs from "@/others/ContactUs";
 
 import style from "./pricing.module.css";
 
-export default function PricingCard() {
+export default function PricingCard({ PricingList }) {
   const [devices, setDevices] = useState({ name: "10 Devices", value: 10 });
   const [tahun, setTahun] = useState({
     name: "1 Tahun",
@@ -20,13 +20,27 @@ export default function PricingCard() {
 
   const setPriceFunc = () => {
     let price = 0;
-    if (devices?.value >= 10 && devices?.value <= 50) {
-      price = 375000;
-    } else if (devices?.value >= 51 && devices?.value <= 99) {
-      price = 349000;
-    } else if (devices?.value >= 100) {
-      price = null;
-    }
+
+    PricingList?.map((obj) => {
+      if (obj?.max) {
+        if (devices?.value >= obj?.min && devices?.value <= obj?.max) {
+          return (price = obj?.price);
+        }
+      }
+
+      if (!obj?.max) {
+        if (devices?.value >= obj?.min) {
+          price = obj?.price;
+        }
+      }
+    });
+    // if (devices?.value >= 10 && devices?.value <= 50) {
+    //   price = 375000;
+    // } else if (devices?.value >= 51 && devices?.value <= 99) {
+    //   price = 349000;
+    // } else if (devices?.value >= 100) {
+    //   price = null;
+    // }
 
     setTotalPrice((prevState) => {
       const sum = price * devices?.value * tahun?.value;

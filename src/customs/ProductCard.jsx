@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 
 import { FaCheckCircle } from "react-icons/fa/index";
 
@@ -9,7 +9,7 @@ import PriceFormat from "@/others/PriceFormat";
 import ContactUs from "@/others/ContactUs";
 
 export default function ProductCard({ product }) {
-  const navigate = useRouter();
+  // const navigate = useRouter();
 
   return (
     <>

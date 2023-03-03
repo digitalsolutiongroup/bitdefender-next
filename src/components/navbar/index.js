@@ -111,10 +111,19 @@ export default function Navbar() {
 
   return (
     <>
-      <nav id="navbar" ref={navbarRef} className="navbar">
+      <nav
+        id="navbar"
+        ref={navbarRef}
+        className={`navbar ${router?.pathname !== "/" && "navbar-alt"}`}
+      >
         <ul className="navbar-wrapper">
           <ul style={{ gap: 0 }}>
-            <div className="navbar-back">
+            <div
+              className="navbar-back"
+              onClick={() => {
+                router.back();
+              }}
+            >
               <FaChevronLeft size={15} />
             </div>
             <Link href="/">

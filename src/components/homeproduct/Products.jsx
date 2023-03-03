@@ -14,6 +14,7 @@ import PriceFormat from "@/others/PriceFormat";
 import ContactUs from "@/others/ContactUs";
 
 import useData from "@/hooks/useData";
+import Link from "next/link";
 
 export default function Products() {
   const navigate = useRouter();
@@ -115,14 +116,12 @@ export default function Products() {
                               >
                                 Buy Now
                               </button>
-                              <button
-                                onClick={() => {
-                                  navigate.push(`/home/${list?.link_id}`);
-                                }}
+                              <Link
+                                href={`/home/${list?.link_id}`}
                                 className="button button-center button-outline"
                               >
-                                Learn More
-                              </button>
+                                Pelajari Lebih
+                              </Link>
                             </div>
                             <p className="text-normal">
                               Price only applied for the first year. Sales Tax

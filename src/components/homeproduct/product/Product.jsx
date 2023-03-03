@@ -20,6 +20,7 @@ import Requirement from "./Requirement";
 
 import useData from "@/hooks/useData";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 export default function Product() {
   const navigate = useRouter();
@@ -35,6 +36,27 @@ export default function Product() {
 
   const [product, setProduct] = useState(data[0]);
 
+  const compare = product?.pageData?.compareValue;
+
+  const [comparedProduct, setComparedProduct] = useState([]);
+
+  useEffect(() => {
+    setComparedProduct((prevState) => {
+      let listedData = [];
+      console.log("WORKED");
+      product?.pageData?.compareTitle?.map((obj) => {
+        console.log(obj);
+        state?.productList?.map((list) => {
+          console.log(list);
+          if (list?.id == obj) {
+            listedData = [...listedData, list];
+          }
+        });
+      });
+      return listedData;
+    });
+  }, [product]);
+
   useEffect(() => {
     setProduct(data[0]);
     if (product?.length == 0) {
@@ -46,6 +68,9 @@ export default function Product() {
 
   return (
     <>
+      <Head>
+        <title>{product?.name} - Bitdefender Indonesia</title>
+      </Head>
       <div
         className="header header-alt"
         style={{
@@ -184,7 +209,7 @@ export default function Product() {
       {/* ========== */}
       {/* COMPARISON */}
       {/* ========== */}
-      {/* {compare && <Comparison compare={compare} product={product} />} */}
+      {compare && <Comparison compare={compare} product={comparedProduct} />}
       {/* =========== */}
       {/* REQUIREMENT */}
       {/* =========== */}

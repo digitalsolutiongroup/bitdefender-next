@@ -7,6 +7,7 @@ import ContactUs from "@/others/ContactUs";
 
 export default function Comparison({ compare, product }) {
   const navigate = useRouter();
+  const { query } = navigate;
 
   return (
     <>
@@ -54,7 +55,7 @@ export default function Comparison({ compare, product }) {
                                 </span>
                               )}
                               {item.price_ori && (
-                                <span className="text-stroked">
+                                <span className="text-stroked text-normal">
                                   {PriceFormat(item.price_ori)}
                                 </span>
                               )}
@@ -62,21 +63,24 @@ export default function Comparison({ compare, product }) {
                             <div className="flex-column gap-5">
                               <button
                                 onClick={() => {
-                                  item.link
+                                  item.link !== query.product
                                     ? navigate.push(item.link)
                                     : ContactUs(
                                         `Hai, saya ingin menanyakan tentang produk ${item.brand} ${item.name}`
                                       );
                                 }}
                                 className={`button ${
-                                  item.link ? "button-outline" : ""
+                                  item.link !== query.product
+                                    ? "button-outline"
+                                    : ""
                                 } button-center`}
                               >
-                                {item.link ? "Learn More" : "Buy Now"}
+                                {item.link !== query.product
+                                  ? "Pelajari Lebih"
+                                  : "Beli Sekarang"}
                               </button>
-                              <span className="text-normal">
-                                Price applied for the first year. Sales tax
-                                included. See Terms of Use
+                              <span className="text-normal margin-top-10">
+                                Harga yang tertera untuk 1 tahun berlangganan
                               </span>
                             </div>
                           </div>
