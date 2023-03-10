@@ -12,20 +12,21 @@ import StarsBackground from "@/others/StarsBackground";
 // import { AnimationOnScroll } from "react-animation-on-scroll";
 
 import style from "./home.module.css";
+import Link from "next/link";
 
 export default function HomeHeader() {
   // Testing the Styled Components
-  const Button = ({ children, onClick }) => {
+  const Button = ({ children, link }) => {
     return (
       <>
-        <a href="" className={style.button} onClick={onClick}>
+        <Link className={style.button} href={link}>
           {children}
-        </a>
+        </Link>
       </>
     );
   };
 
-  const navigate = useRouter();
+  // const navigate = useRouter();
 
   return (
     <>
@@ -58,22 +59,8 @@ export default function HomeHeader() {
                 </p>
               </div>
               <div className="flex-row gap-15">
-                <Button
-                  onClick={(e) => {
-                    e.preventDefault();
-                    navigate.push("/home");
-                  }}
-                >
-                  For Home
-                </Button>
-                <Button
-                  onClick={(e) => {
-                    e.preventDefault();
-                    navigate.push("/business");
-                  }}
-                >
-                  For Business
-                </Button>
+                <Button link="/home">For Home</Button>
+                <Button link="/business">For Business</Button>
               </div>
               <div className="flex-row align-center gap-15">
                 <FaWindows className="icon-normal" size={20} />

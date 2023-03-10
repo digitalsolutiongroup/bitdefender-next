@@ -26,34 +26,41 @@ export default function Footer() {
                 <ul>
                   <span>Products</span>
                   <li>
-                    <Link href="/">Family Pack</Link>
+                    <Link href="/home/familypack">Family Pack</Link>
                   </li>
                   <li>
-                    <Link href="/">Antivirus Protection</Link>
+                    <Link href="/home/antivirusplus">Antivirus Plus</Link>
                   </li>
                   <li>
-                    <Link href="/">Total Security</Link>
+                    <Link href="/home/totalsecurity">Total Security</Link>
                   </li>
                   <li>
-                    <Link href="/">Internet Security</Link>
+                    <Link href="/home/internetsecurity">Internet Security</Link>
                   </li>
                 </ul>
                 <ul>
                   <span>Resource</span>
                   <li>
-                    <Link href="/">Bitdefender Official</Link>
+                    <Link href="https://bitdefender.com" target={"_blank"}>
+                      Bitdefender Official
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/">Bitdefender Facebook</Link>
+                    <Link
+                      href="https://facebook.com/bitdefender/"
+                      target={"_blank"}
+                    >
+                      Bitdefender Facebook
+                    </Link>
                   </li>
                 </ul>
                 <ul>
                   <span>Quick Links</span>
                   <li>
-                    <Link href="/">For Home</Link>
+                    <Link href="/home">For Home</Link>
                   </li>
                   <li>
-                    <Link href="/">For Business</Link>
+                    <Link href="/business">For Business</Link>
                   </li>
                 </ul>
               </div>
@@ -61,13 +68,16 @@ export default function Footer() {
             <div className="footer-bottom">
               <div className="flex-column">
                 <div className="flex-row gap-10 margin-bottom-15">
-                  <a href="">
+                  <a href="https://wa.me/6281233345119" target={"_blank"}>
                     <FaWhatsapp color="rgba(255,255,255,0.5)" size={20} />
                   </a>
-                  <a href="">
+                  <a
+                    href="https://www.instagram.com/digitalsolusi/"
+                    target={"_blank"}
+                  >
                     <FaInstagram color="rgba(255,255,255,0.5)" size={20} />
                   </a>
-                  <a href="">
+                  <a href="https://web.facebook.com/ptdsg/" target={"_blank"}>
                     <FaFacebook color="rgba(255,255,255,0.5)" size={20} />
                   </a>
                 </div>

@@ -222,305 +222,305 @@ export const DataProvider = ({ children }) => {
             {
               title: "Protection",
               desc: "Bitdefender`s unbeatable multi-layered protection keeps your devices safe from all new and existing online threats.",
-              feat: [
-                {
-                  title: "Complete Real-Time Data Protection",
-                  desc: `Absolute power in the most efficient security solution available today. 
-                        Bitdefender Family Pack works against all e-threats, from viruses, 
-                        worms and Trojans, to ransomware, zero-day exploits, rootkits and spyware. 
-                        Your data and privacy are safe.`,
-                },
-                {
-                  title: "Network Threat Prevention",
-                  desc: `Bitdefender Family Pack stops attacks before they even begin. The new cyber threat intelligence technologies included can analyze and identify suspicious network-level activities, and block sophisticated exploits, malware and botnet-related URLs, and brute force attacks.`,
-                },
-                {
-                  title: "Advanced Threat Defense",
-                  desc: `Bitdefender Family Pack uses a technique called behavioral detection to closely monitor active apps. The moment it detects anything suspicious, it takes instant action to prevent infections.`,
-                },
-                {
-                  title: "Multi-Layer Ransomware Protection",
-                  desc: `Bitdefender’s multi-layered approach against ransomware includes a data-protection layer that safeguards your documents, pictures, videos, and music against all kinds of ransomware attacks. It works with the Advanced Threat Defense module to protect your most important files from encryption by ransomware.`,
-                },
-                {
-                  title: "Vulnerability Assessment",
-                  desc: `Scan for security holes and vulnerabilities with just one click. Bitdefender checks your PC for outdated and vulnerable software, missing Windows security patches and potentially unsafe system settings, then indicates the best fix.`,
-                },
-                {
-                  title: "Web Attack Prevention",
-                  desc: `Our web-filtering technology ensures that you never land on a harmful website. Find out whether your search results are safe to access before you actually click on a link. Bitdefender Family Pack also blocks all known infected links.`,
-                },
-                {
-                  title: "Anti-Phising",
-                  desc: `Online scams are on the rise, but our advanced anti-phishing protection easily keeps you out of danger. Bitdefender Family Pack sniffs and blocks websites that masquerade as trustworthy in order to steal financial data such as passwords or credit card numbers.`,
-                },
-                {
-                  title: "Anti-Fraud",
-                  desc: `Our advanced filtering system warns you whenever you visit websites that may try to scam you.`,
-                },
-                {
-                  title: "Antispam",
-                  desc: `Filters irrelevant messages in your Inbox. It’s available for local email clients (Microsoft Outlook, Thunderbird).`,
-                },
-                {
-                  title: "Rescue Environtment",
-                  desc: `Some sophisticated malware, like rootkits, need to be removed before Windows starts. When Bitdefender Family Pack detects such threats, it reboots the computer in Rescue Environment for clean-up and restoration.`,
-                },
-              ],
+              // feat: [
+              //   {
+              //     title: "Complete Real-Time Data Protection",
+              //     desc: `Absolute power in the most efficient security solution available today.
+              //           Bitdefender Family Pack works against all e-threats, from viruses,
+              //           worms and Trojans, to ransomware, zero-day exploits, rootkits and spyware.
+              //           Your data and privacy are safe.`,
+              //   },
+              //   {
+              //     title: "Network Threat Prevention",
+              //     desc: `Bitdefender Family Pack stops attacks before they even begin. The new cyber threat intelligence technologies included can analyze and identify suspicious network-level activities, and block sophisticated exploits, malware and botnet-related URLs, and brute force attacks.`,
+              //   },
+              //   {
+              //     title: "Advanced Threat Defense",
+              //     desc: `Bitdefender Family Pack uses a technique called behavioral detection to closely monitor active apps. The moment it detects anything suspicious, it takes instant action to prevent infections.`,
+              //   },
+              //   {
+              //     title: "Multi-Layer Ransomware Protection",
+              //     desc: `Bitdefender’s multi-layered approach against ransomware includes a data-protection layer that safeguards your documents, pictures, videos, and music against all kinds of ransomware attacks. It works with the Advanced Threat Defense module to protect your most important files from encryption by ransomware.`,
+              //   },
+              //   {
+              //     title: "Vulnerability Assessment",
+              //     desc: `Scan for security holes and vulnerabilities with just one click. Bitdefender checks your PC for outdated and vulnerable software, missing Windows security patches and potentially unsafe system settings, then indicates the best fix.`,
+              //   },
+              //   {
+              //     title: "Web Attack Prevention",
+              //     desc: `Our web-filtering technology ensures that you never land on a harmful website. Find out whether your search results are safe to access before you actually click on a link. Bitdefender Family Pack also blocks all known infected links.`,
+              //   },
+              //   {
+              //     title: "Anti-Phising",
+              //     desc: `Online scams are on the rise, but our advanced anti-phishing protection easily keeps you out of danger. Bitdefender Family Pack sniffs and blocks websites that masquerade as trustworthy in order to steal financial data such as passwords or credit card numbers.`,
+              //   },
+              //   {
+              //     title: "Anti-Fraud",
+              //     desc: `Our advanced filtering system warns you whenever you visit websites that may try to scam you.`,
+              //   },
+              //   {
+              //     title: "Antispam",
+              //     desc: `Filters irrelevant messages in your Inbox. It’s available for local email clients (Microsoft Outlook, Thunderbird).`,
+              //   },
+              //   {
+              //     title: "Rescue Environtment",
+              //     desc: `Some sophisticated malware, like rootkits, need to be removed before Windows starts. When Bitdefender Family Pack detects such threats, it reboots the computer in Rescue Environment for clean-up and restoration.`,
+              //   },
+              // ],
             },
             {
               title: "Performance",
               desc: "Bitdefender’s security software reacts instantly to online threats with no compromise to your system’s performance.",
-              feat: [
-                {
-                  title: "Autopilot",
-                  desc: `Bitdefender Autopilot is designed to act as a Security Advisor and to give you deeper insights into your security posture. Its smart capabilities mean that it can recommend security actions in the context of your system needs and usage patterns.`,
-                },
-                {
-                  title: "Bitdefender Photon",
-                  desc: `This innovative, exclusive technology helps Bitdefender Family Pack adapt to your system’s hardware and software configuration to save computing resources and improve speed and performance.`,
-                },
-                {
-                  title: "Global Protective Network",
-                  desc: `Most heavy scanning takes place in the cloud, so there is virtually zero impact on your local resources. This means your system’s speed and performance remain unaffected. And your files are always completely private: Bitdefender does not scan the actual contents of your files, and never uploads or stores them in the cloud.`,
-                },
-                {
-                  title: "Game, Movie, and Work Modes",
-                  desc: `Bitdefender Family Pack detects when you play, work or watch a movie, so it knows not to bother you with unnecessary requests. Depending on what you are doing, Bitdefender temporarily halts pop-ups, adjusts visual settings, and pauses unimportant background activities so you can enjoy your device to the max.`,
-                },
-                {
-                  title: "Speed Up Your Devices",
-                  desc: `Improve speed and performance for your devices with OneClick Optimizer.`,
-                },
-                {
-                  title: "Battery Mode",
-                  desc: `This useful, intelligent feature saves battery life for laptops and tablets by temporarily tweaking system settings such as display, system cooling, system updates and Bluetooth connectivity.`,
-                },
-              ],
+              // feat: [
+              //   {
+              //     title: "Autopilot",
+              //     desc: `Bitdefender Autopilot is designed to act as a Security Advisor and to give you deeper insights into your security posture. Its smart capabilities mean that it can recommend security actions in the context of your system needs and usage patterns.`,
+              //   },
+              //   {
+              //     title: "Bitdefender Photon",
+              //     desc: `This innovative, exclusive technology helps Bitdefender Family Pack adapt to your system’s hardware and software configuration to save computing resources and improve speed and performance.`,
+              //   },
+              //   {
+              //     title: "Global Protective Network",
+              //     desc: `Most heavy scanning takes place in the cloud, so there is virtually zero impact on your local resources. This means your system’s speed and performance remain unaffected. And your files are always completely private: Bitdefender does not scan the actual contents of your files, and never uploads or stores them in the cloud.`,
+              //   },
+              //   {
+              //     title: "Game, Movie, and Work Modes",
+              //     desc: `Bitdefender Family Pack detects when you play, work or watch a movie, so it knows not to bother you with unnecessary requests. Depending on what you are doing, Bitdefender temporarily halts pop-ups, adjusts visual settings, and pauses unimportant background activities so you can enjoy your device to the max.`,
+              //   },
+              //   {
+              //     title: "Speed Up Your Devices",
+              //     desc: `Improve speed and performance for your devices with OneClick Optimizer.`,
+              //   },
+              //   {
+              //     title: "Battery Mode",
+              //     desc: `This useful, intelligent feature saves battery life for laptops and tablets by temporarily tweaking system settings such as display, system cooling, system updates and Bluetooth connectivity.`,
+              //   },
+              // ],
             },
             {
               title: "Privacy",
               desc: "Bitdefender Family Pack takes care of your online privacy and personal information.",
-              feat: [
-                {
-                  title: "Bitdefender VPN",
-                  desc: `With Bitdefender VPN, you can stop worrying about privacy on the web. It protects your online presence by encrypting all Internet traffic. Bitdefender Family Pack includes up to 200 MB per day of encrypted traffic for your Windows, Android, macOS and iOS devices.`,
-                },
-                {
-                  title: "Anti-tracker",
-                  desc: `The Anti-tracker extension blocks trackers that collect your data, and it allows you to view and manage this information on each website you visit. It keeps your browsing data private and enhances performance by loading webpages faster.`,
-                },
-                {
-                  title: "Microphone Monitor",
-                  desc: `Regain control over your own devices with Microphone Monitor. Use it and you can see what apps have access to your device’s microphone and when.`,
-                },
-                {
-                  title: "Webcam Protection ",
-                  desc: `Protect your privacy and prevent webcam leaks. Webcam Protection notifies you when apps try to access your webcam, and lets you block unauthorized access.`,
-                },
-                {
-                  title: "Safe Online Banking",
-                  desc: `Bank and shop from a unique, dedicated browser that secures your transactions to prevent fraud. Bitdefender Safepay can now also automatically fill out credit card details in billing fields.`,
-                },
-                {
-                  title: "Parental Control",
-                  desc: `Parental Control offers digital help to parents and extra online safety to children. Filter out inappropriate content and limit screen time. Log in remotely to Bitdefender Central to monitor your kids’ online activities. *Parental Control is also available on macOS, iOS and Android with a different feature set depending on each platform.`,
-                },
-                {
-                  title: "Privacy Firewall",
-                  desc: `With Bitdefender Family Pack, you get a powerful layer of network protection, so your personal information stays safe from hackers and data snoops.`,
-                },
-                {
-                  title: "Anti-Theft",
-                  desc: `Bitdefender Family Pack packs effective anti-loss and anti-theft tools for your Windows laptop or tablet, remotely accessible from anywhere in the world via your Bitdefender Central account.`,
-                },
-                {
-                  title: "Wi-Fi Security Advisor",
-                  desc: `Assess the security of your Wi-Fi network and router, no matter where you connect.`,
-                },
-                {
-                  title: "Social Network Protection",
-                  desc: `Stay safe from malicious links and any online threats your friends unwittingly pass on to you via social networks.`,
-                },
-                {
-                  title: "File Shredder",
-                  desc: `Use this tool when you wish to delete a file for good and leave no traces that it ever existed on your PC.`,
-                },
-              ],
+              // feat: [
+              //   {
+              //     title: "Bitdefender VPN",
+              //     desc: `With Bitdefender VPN, you can stop worrying about privacy on the web. It protects your online presence by encrypting all Internet traffic. Bitdefender Family Pack includes up to 200 MB per day of encrypted traffic for your Windows, Android, macOS and iOS devices.`,
+              //   },
+              //   {
+              //     title: "Anti-tracker",
+              //     desc: `The Anti-tracker extension blocks trackers that collect your data, and it allows you to view and manage this information on each website you visit. It keeps your browsing data private and enhances performance by loading webpages faster.`,
+              //   },
+              //   {
+              //     title: "Microphone Monitor",
+              //     desc: `Regain control over your own devices with Microphone Monitor. Use it and you can see what apps have access to your device’s microphone and when.`,
+              //   },
+              //   {
+              //     title: "Webcam Protection ",
+              //     desc: `Protect your privacy and prevent webcam leaks. Webcam Protection notifies you when apps try to access your webcam, and lets you block unauthorized access.`,
+              //   },
+              //   {
+              //     title: "Safe Online Banking",
+              //     desc: `Bank and shop from a unique, dedicated browser that secures your transactions to prevent fraud. Bitdefender Safepay can now also automatically fill out credit card details in billing fields.`,
+              //   },
+              //   {
+              //     title: "Parental Control",
+              //     desc: `Parental Control offers digital help to parents and extra online safety to children. Filter out inappropriate content and limit screen time. Log in remotely to Bitdefender Central to monitor your kids’ online activities. *Parental Control is also available on macOS, iOS and Android with a different feature set depending on each platform.`,
+              //   },
+              //   {
+              //     title: "Privacy Firewall",
+              //     desc: `With Bitdefender Family Pack, you get a powerful layer of network protection, so your personal information stays safe from hackers and data snoops.`,
+              //   },
+              //   {
+              //     title: "Anti-Theft",
+              //     desc: `Bitdefender Family Pack packs effective anti-loss and anti-theft tools for your Windows laptop or tablet, remotely accessible from anywhere in the world via your Bitdefender Central account.`,
+              //   },
+              //   {
+              //     title: "Wi-Fi Security Advisor",
+              //     desc: `Assess the security of your Wi-Fi network and router, no matter where you connect.`,
+              //   },
+              //   {
+              //     title: "Social Network Protection",
+              //     desc: `Stay safe from malicious links and any online threats your friends unwittingly pass on to you via social networks.`,
+              //   },
+              //   {
+              //     title: "File Shredder",
+              //     desc: `Use this tool when you wish to delete a file for good and leave no traces that it ever existed on your PC.`,
+              //   },
+              // ],
             },
           ],
           featMac: [
             {
               title: "Protection",
               desc: "Bitdefender`s unbeatable multi-layered protection keeps your devices safe from all new and existing online threats.",
-              feat: [
-                {
-                  title: "Safe Files ",
-                  desc: `With Bitdefender Safe Files, you can prevent unauthorized changes to your most important files. Simply add folders to the watch list, and Bitdefender guards the files stored in them against ransomware and other malware. Only applications you explicitly trust can access your Safe Files.`,
-                },
-                {
-                  title: "Time Machine Protection",
-                  desc: `If you use Time Machine to back up your files, you’ll want this extra security layer to stay safe from sophisticated ransomware attacks. Ransomware, an extremely dangerous type of malware, acts by encrypting precious files such as pictures, videos and other documents, rendering them unusable. With this complex feature, Mac users can restore their files without having to pay ransom. Time Machine Protection gives you the edge against any malware that tries to encrypt or destroy your backups.`,
-                },
-                {
-                  title: "Adware Blocker",
-                  desc: `Unsolicited ads popping up in your browser are unpleasant, and even Macs can pick up these intrusive adware infections that divert your focus and slow you down. Bitdefender Family Pack detects and removes adware, malicious hijacker programs, unwanted toolbars and other annoying browser add-ons, so you can enjoy your Mac to the max.`,
-                },
-                {
-                  title: "Cross-Platform Malware Detection",
-                  desc: `Your Mac may be safe from malicious content designed for Windows, but you’ll want to make sure you don’t pick it up and pass it on to PC users. Bitdefender Family Pack detects and removes both malware targeting macOS and threats made for Windows, so you know the files you send to others are not compromised.`,
-                },
-                {
-                  title: "Traffic Light (browser extension)",
-                  desc: `Bitdefender Family Pack ensures protection for all your browsing, including your online shopping and banking, and can filter out inappropriate content. With automatic protection on, our artificial intelligence system scans all links before you even click on them, so you never unknowingly open harmful web pages.`,
-                },
-                {
-                  title: "Anti-Phishing",
-                  desc: `Online scams are on the rise, but our advanced anti-phishing protection keeps you far from danger. Bitdefender Family Pack sniffs and blocks websites that masquerade as trustworthy in order to steal financial data such as passwords or credit card numbers.`,
-                },
-                {
-                  title: "Bitdefender Shield",
-                  desc: `Handles all your security needs so you don’t need to bother with the nitty-gritty. Once switched on, it combines a series of innovative proprietary technologies to automatically detect and remove any threat, with no negative impact on your Mac’s speed and performance. Turn it on and forget about it.`,
-                },
-              ],
+              // feat: [
+              //   {
+              //     title: "Safe Files ",
+              //     desc: `With Bitdefender Safe Files, you can prevent unauthorized changes to your most important files. Simply add folders to the watch list, and Bitdefender guards the files stored in them against ransomware and other malware. Only applications you explicitly trust can access your Safe Files.`,
+              //   },
+              //   {
+              //     title: "Time Machine Protection",
+              //     desc: `If you use Time Machine to back up your files, you’ll want this extra security layer to stay safe from sophisticated ransomware attacks. Ransomware, an extremely dangerous type of malware, acts by encrypting precious files such as pictures, videos and other documents, rendering them unusable. With this complex feature, Mac users can restore their files without having to pay ransom. Time Machine Protection gives you the edge against any malware that tries to encrypt or destroy your backups.`,
+              //   },
+              //   {
+              //     title: "Adware Blocker",
+              //     desc: `Unsolicited ads popping up in your browser are unpleasant, and even Macs can pick up these intrusive adware infections that divert your focus and slow you down. Bitdefender Family Pack detects and removes adware, malicious hijacker programs, unwanted toolbars and other annoying browser add-ons, so you can enjoy your Mac to the max.`,
+              //   },
+              //   {
+              //     title: "Cross-Platform Malware Detection",
+              //     desc: `Your Mac may be safe from malicious content designed for Windows, but you’ll want to make sure you don’t pick it up and pass it on to PC users. Bitdefender Family Pack detects and removes both malware targeting macOS and threats made for Windows, so you know the files you send to others are not compromised.`,
+              //   },
+              //   {
+              //     title: "Traffic Light (browser extension)",
+              //     desc: `Bitdefender Family Pack ensures protection for all your browsing, including your online shopping and banking, and can filter out inappropriate content. With automatic protection on, our artificial intelligence system scans all links before you even click on them, so you never unknowingly open harmful web pages.`,
+              //   },
+              //   {
+              //     title: "Anti-Phishing",
+              //     desc: `Online scams are on the rise, but our advanced anti-phishing protection keeps you far from danger. Bitdefender Family Pack sniffs and blocks websites that masquerade as trustworthy in order to steal financial data such as passwords or credit card numbers.`,
+              //   },
+              //   {
+              //     title: "Bitdefender Shield",
+              //     desc: `Handles all your security needs so you don’t need to bother with the nitty-gritty. Once switched on, it combines a series of innovative proprietary technologies to automatically detect and remove any threat, with no negative impact on your Mac’s speed and performance. Turn it on and forget about it.`,
+              //   },
+              // ],
             },
             {
               title: "Performance",
               desc: "Bitdefender’s security software reacts instantly to online threats with no compromise to your system’s performance.",
-              feat: [
-                {
-                  title: "Autopilot",
-                  desc: `Bitdefender Autopilot is designed to act as a Security Advisor and to give you deeper insights into your security posture. Its smart capabilities mean that it can recommend security actions in the context of your system needs and usage patterns.`,
-                },
-                {
-                  title: "Ultra-Fast Scanning",
-                  desc: `Ironclad protection is great, but it’s even better when it comes with unrivaled speed and performance. Bitdefender Family Pack combines accuracy and speed so you get ultra-fast scans and the best detection rate in the industry.`,
-                },
-                {
-                  title: "24/7 Cloud-Based Guard Duty",
-                  desc: `Through permanent updates, our Bitdefender Family Pack is always aware of zero-day attacks. We use amazingly powerful Cloud-based technologies to detect and eliminate e-threats, wherever they come from, to give you instant worldwide protection. As the heavy lifting is done in the Cloud, there’s no drag on your Mac’s resources, and your personal information remains safely stored on your computer.`,
-                },
-              ],
+              // feat: [
+              //   {
+              //     title: "Autopilot",
+              //     desc: `Bitdefender Autopilot is designed to act as a Security Advisor and to give you deeper insights into your security posture. Its smart capabilities mean that it can recommend security actions in the context of your system needs and usage patterns.`,
+              //   },
+              //   {
+              //     title: "Ultra-Fast Scanning",
+              //     desc: `Ironclad protection is great, but it’s even better when it comes with unrivaled speed and performance. Bitdefender Family Pack combines accuracy and speed so you get ultra-fast scans and the best detection rate in the industry.`,
+              //   },
+              //   {
+              //     title: "24/7 Cloud-Based Guard Duty",
+              //     desc: `Through permanent updates, our Bitdefender Family Pack is always aware of zero-day attacks. We use amazingly powerful Cloud-based technologies to detect and eliminate e-threats, wherever they come from, to give you instant worldwide protection. As the heavy lifting is done in the Cloud, there’s no drag on your Mac’s resources, and your personal information remains safely stored on your computer.`,
+              //   },
+              // ],
             },
             {
               title: "Privacy",
               desc: "Bitdefender Family Pack takes care of your online privacy and personal information.",
-              feat: [
-                {
-                  title: "Bitdefender VPN ",
-                  desc: `With Bitdefender VPN, you can stop worrying about privacy on the web. It protects your online presence by encrypting all Internet traffic. Bitdefender Family Pack includes up to 200 MB per day of encrypted traffic for your Windows, Android, macOS and iOS devices.`,
-                },
-                {
-                  title: "Anti-tracker",
-                  desc: `The Anti-tracker extension blocks trackers that collect your data and allows you to view and manage this information on each website you visit. Keeps your browsing data private and enhances performance by loading webpages faster.`,
-                },
-                {
-                  title: "Parental Control",
-                  desc: `Parental Control offers digital help to parents and extra online safety to children.`,
-                },
-              ],
+              // feat: [
+              //   {
+              //     title: "Bitdefender VPN ",
+              //     desc: `With Bitdefender VPN, you can stop worrying about privacy on the web. It protects your online presence by encrypting all Internet traffic. Bitdefender Family Pack includes up to 200 MB per day of encrypted traffic for your Windows, Android, macOS and iOS devices.`,
+              //   },
+              //   {
+              //     title: "Anti-tracker",
+              //     desc: `The Anti-tracker extension blocks trackers that collect your data and allows you to view and manage this information on each website you visit. Keeps your browsing data private and enhances performance by loading webpages faster.`,
+              //   },
+              //   {
+              //     title: "Parental Control",
+              //     desc: `Parental Control offers digital help to parents and extra online safety to children.`,
+              //   },
+              // ],
             },
           ],
           featIOS: [
             {
               title: "Protection",
               desc: "Bitdefender`s unbeatable multi-layered protection keeps your devices safe from all new and existing online threats.",
-              feat: [
-                {
-                  title: "Web Protection",
-                  desc: `Our anti-phishing system scans webpages and warns you when you come across fraudulent pages. Bitdefender Web Protection filters all traffic, not only your intentional browsing, and offers real-time protection against all online dangers.`,
-                },
-                {
-                  title: "Scan",
-                  desc: `Protects your phone and its data by detecting security misconfigurations and helping you remediate them.`,
-                },
-              ],
+              // feat: [
+              //   {
+              //     title: "Web Protection",
+              //     desc: `Our anti-phishing system scans webpages and warns you when you come across fraudulent pages. Bitdefender Web Protection filters all traffic, not only your intentional browsing, and offers real-time protection against all online dangers.`,
+              //   },
+              //   {
+              //     title: "Scan",
+              //     desc: `Protects your phone and its data by detecting security misconfigurations and helping you remediate them.`,
+              //   },
+              // ],
             },
             {
               title: "Privacy",
               desc: "Bitdefender Family Pack takes care of your online privacy and personal information.",
-              feat: [
-                {
-                  title: "Bitdefender VPN",
-                  desc: `With Bitdefender VPN, you can stop worrying about privacy on the web. It protects your online presence by encrypting all Internet traffic. Bitdefender Family Pack includes up to 200 MB per day of encrypted traffic for your Windows, Android, macOS and iOS devices.`,
-                },
-                {
-                  title: "Account Privacy",
-                  desc: `Check straight from your iPhone whether your online accounts have been involved in any data breaches. With so many popular websites and apps issuing warnings about database leaks, it’s easy to lose track of your exposed accounts. Account Privacy notifies you when your sensitive data is at risk, and lets you take action depending on its status.`,
-                },
-                {
-                  title: "Parental Control",
-                  desc: `Parental Control offers digital help to parents and extra online safety to children.`,
-                },
-              ],
+              // feat: [
+              //   {
+              //     title: "Bitdefender VPN",
+              //     desc: `With Bitdefender VPN, you can stop worrying about privacy on the web. It protects your online presence by encrypting all Internet traffic. Bitdefender Family Pack includes up to 200 MB per day of encrypted traffic for your Windows, Android, macOS and iOS devices.`,
+              //   },
+              //   {
+              //     title: "Account Privacy",
+              //     desc: `Check straight from your iPhone whether your online accounts have been involved in any data breaches. With so many popular websites and apps issuing warnings about database leaks, it’s easy to lose track of your exposed accounts. Account Privacy notifies you when your sensitive data is at risk, and lets you take action depending on its status.`,
+              //   },
+              //   {
+              //     title: "Parental Control",
+              //     desc: `Parental Control offers digital help to parents and extra online safety to children.`,
+              //   },
+              // ],
             },
           ],
           featAnd: [
             {
               title: "Protection",
               desc: "Browsing the Internet can take you to dangerous places, but Bitdefender Android security is always there to protect you. Our anti-phishing system scans webpages and warns you when you come across fraudulent pages.",
-              feat: [
-                {
-                  title: "On-Demand & On-Install Scan",
-                  desc: `Scan your Android phone or tablet any time to make sure all your apps are clean. Plus, the antivirus module automatically scans each app once you install it, and immediately lets you know whether it poses any danger.`,
-                },
-                {
-                  title: "Web Protection",
-                  desc: `Browsing the Internet can take you to dangerous places, but Bitdefender Android security is always there to protect you. Our anti-phishing system scans webpages and warns you when you come across fraudulent pages.`,
-                },
-                {
-                  title: "Scam Alert",
-                  desc: `Our newest technology proactively protects you against the rising mobile attacks relying on links to enter your device, to stop you and others from falling victim to scams.`,
-                },
-                {
-                  title: "WearON",
-                  desc: `WearON extends mobile security to your smart watch. And if you don’t know where your phone is, use WearON from your Android to activate a sound alert so you can easily find it. Receive an alert when you step too far away from your phone, so you never leave it behind.`,
-                },
-                {
-                  title: "Anti-Theft",
-                  desc: `With Bitdefender Anti-Theft, you can remotely locate, lock, wipe or send a message to your device in case of loss or theft. Plus, your Android phone is capable of self-defense: it snaps a mugshot of anyone who tries to tamper with it in your absence, then sends it to you in your Bitdefender Central account.`,
-                },
-              ],
+              // feat: [
+              //   {
+              //     title: "On-Demand & On-Install Scan",
+              //     desc: `Scan your Android phone or tablet any time to make sure all your apps are clean. Plus, the antivirus module automatically scans each app once you install it, and immediately lets you know whether it poses any danger.`,
+              //   },
+              //   {
+              //     title: "Web Protection",
+              //     desc: `Browsing the Internet can take you to dangerous places, but Bitdefender Android security is always there to protect you. Our anti-phishing system scans webpages and warns you when you come across fraudulent pages.`,
+              //   },
+              //   {
+              //     title: "Scam Alert",
+              //     desc: `Our newest technology proactively protects you against the rising mobile attacks relying on links to enter your device, to stop you and others from falling victim to scams.`,
+              //   },
+              //   {
+              //     title: "WearON",
+              //     desc: `WearON extends mobile security to your smart watch. And if you don’t know where your phone is, use WearON from your Android to activate a sound alert so you can easily find it. Receive an alert when you step too far away from your phone, so you never leave it behind.`,
+              //   },
+              //   {
+              //     title: "Anti-Theft",
+              //     desc: `With Bitdefender Anti-Theft, you can remotely locate, lock, wipe or send a message to your device in case of loss or theft. Plus, your Android phone is capable of self-defense: it snaps a mugshot of anyone who tries to tamper with it in your absence, then sends it to you in your Bitdefender Central account.`,
+              //   },
+              // ],
             },
             {
               title: "Performance",
               desc: "WearON extends mobile security to your smart watch. And if you don’t know where your phone is, use WearON from your Android to activate a sound alert so you can easily find it. Receive an alert when you step too far away from your phone, so you never leave it behind.",
-              feat: [
-                {
-                  title: "Autopilot",
-                  desc: `Bitdefender Autopilot is designed to act as a Security Advisor and to give you deeper insights into your security posture. Its smart capabilities mean that it can recommend security actions in the context of your system needs and usage patterns.`,
-                },
-                {
-                  title: "Battery & Performance Saver",
-                  desc: `We designed Bitdefender Family Pack to give you the most effective protection, combined with efficient power management. Since most heavy lifting takes place in the cloud, it doesn’t drain your device’s resources, and your battery life remains virtually unaffected.`,
-                },
-                {
-                  title: "Fast & Light-Weight",
-                  desc: `Bitdefender Family Pack is amazingly powerful against online threats, yet easy on your phone’s resources, so you won’t see any negative impact on performance. On-demand scanning is lightning fast, and the app only adds a second to the reboot time.`,
-                },
-              ],
+              // feat: [
+              //   {
+              //     title: "Autopilot",
+              //     desc: `Bitdefender Autopilot is designed to act as a Security Advisor and to give you deeper insights into your security posture. Its smart capabilities mean that it can recommend security actions in the context of your system needs and usage patterns.`,
+              //   },
+              //   {
+              //     title: "Battery & Performance Saver",
+              //     desc: `We designed Bitdefender Family Pack to give you the most effective protection, combined with efficient power management. Since most heavy lifting takes place in the cloud, it doesn’t drain your device’s resources, and your battery life remains virtually unaffected.`,
+              //   },
+              //   {
+              //     title: "Fast & Light-Weight",
+              //     desc: `Bitdefender Family Pack is amazingly powerful against online threats, yet easy on your phone’s resources, so you won’t see any negative impact on performance. On-demand scanning is lightning fast, and the app only adds a second to the reboot time.`,
+              //   },
+              // ],
             },
             {
               title: "Privacy",
               desc: "With Bitdefender Anti-Theft, you can remotely locate, lock, wipe or send a message to your device in case of loss or theft. Plus, your Android phone is capable of self-defense: it snaps a mugshot of anyone who tries to tamper with it in your absence, then sends it to you in your Bitdefender Central account.",
-              feat: [
-                {
-                  title: "Bitdefender VPN",
-                  desc: `With Bitdefender VPN, you can stop worrying about privacy on the web. It protects your online presence by encrypting all Internet traffic. Bitdefender Family Pack includes up to 200 MB per day of encrypted traffic for your Windows, Android, macOS and iOS devices.`,
-                },
-                {
-                  title: "App Lock",
-                  desc: `App Lock protects your most sensitive apps so no one can mess with your settings or private info. Bitdefender Family Pack adds an extra layer of protection by giving you the possibility to lock apps with a PIN code. With Smart Unlock you can set your phone to allow direct access to your protected apps when using a trusted Wi-Fi network.`,
-                },
-                {
-                  title: "Account Privacy",
-                  desc: `Check if your online accounts have been involved in any data breaches. With so many popular websites and apps that issuing warnings about database leaks, it’s easy to lose track of your exposed accounts. Account Privacy notifies you when your sensitive data is at risk, and lets you take action depending on its status.`,
-                },
-                {
-                  title: "Parental Control",
-                  desc: `Parental Control offers digital help to parents and extra online safety to children.`,
-                },
-              ],
+              // feat: [
+              //   {
+              //     title: "Bitdefender VPN",
+              //     desc: `With Bitdefender VPN, you can stop worrying about privacy on the web. It protects your online presence by encrypting all Internet traffic. Bitdefender Family Pack includes up to 200 MB per day of encrypted traffic for your Windows, Android, macOS and iOS devices.`,
+              //   },
+              //   {
+              //     title: "App Lock",
+              //     desc: `App Lock protects your most sensitive apps so no one can mess with your settings or private info. Bitdefender Family Pack adds an extra layer of protection by giving you the possibility to lock apps with a PIN code. With Smart Unlock you can set your phone to allow direct access to your protected apps when using a trusted Wi-Fi network.`,
+              //   },
+              //   {
+              //     title: "Account Privacy",
+              //     desc: `Check if your online accounts have been involved in any data breaches. With so many popular websites and apps that issuing warnings about database leaks, it’s easy to lose track of your exposed accounts. Account Privacy notifies you when your sensitive data is at risk, and lets you take action depending on its status.`,
+              //   },
+              //   {
+              //     title: "Parental Control",
+              //     desc: `Parental Control offers digital help to parents and extra online safety to children.`,
+              //   },
+              // ],
             },
           ],
           reqWin: [
@@ -2322,7 +2322,7 @@ export const DataProvider = ({ children }) => {
               },
             ],
           },
-          compareTitle: [1, 2, 3],
+          compareTitle: [7, 2],
           compareValue: [
             {
               title: "Windows Protection",
