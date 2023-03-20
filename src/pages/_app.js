@@ -54,6 +54,10 @@ export default function App({ Component, pageProps }) {
             content="https://download.logo.wine/logo/Bitdefender/Bitdefender-Logo.wine.png"
           />
           <link rel="icon" type="image/x-icon" href="./favicon.ico"></link>
+          <meta
+            name="google-site-verification"
+            content="z00WHs-5L2MMF1LTbc2v1nCMYMiRTDv-qRrH7zC7Uf4"
+          />
         </Head>
         <Navbar />
         <Component {...pageProps} />
